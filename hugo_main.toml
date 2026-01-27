@@ -1,0 +1,16 @@
+baseURL = 'https://Kanishk-18.github.io/Diffusion/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme= "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\\(', '\\)']]
+[params]
+  math = true
+

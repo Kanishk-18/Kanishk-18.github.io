@@ -1,0 +1,63 @@
+baseURL = "https://kanishk-18.github.io/"
+languageCode = "en-us"
+title = "Kanishk-18"
+theme = "PaperMod"
+
+enableGitInfo = false
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  math = true
+  katex = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Neural Notes"
+    subtitle = "Physics • AI • Math & Random Thoughts"
+    #imageUrl = "/images/avatar.jpg"
+    #imageTitle = "profile picture"
+    #imageWidth = 120
+    #imageHeight = 120
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Kanishk-18"
+  
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/kanishk-bhatt-510b00258"
+   
+
+  hideMeta = false
+
+[[menu.main]]
+  identifier = "posts"
+  name       = "Posts"
+  url        = "/posts/"
+  weight     = 10
+
+#[markup]
+ # [markup.goldmark.renderer]
+  #  unsafe = true
+
+  #[markup.highlight]
+   # noClasses = false
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
