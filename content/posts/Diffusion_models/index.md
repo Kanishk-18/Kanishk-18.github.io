@@ -1,6 +1,6 @@
 # From Physical Diffusion to Diffusion Models: Building Intuition
 
-Coming from a physics background and now working in AI for remote sensing, I was naturally intrigued by diffusion models. While reading about their impressive generative capabilities, I initially struggled to understand how a physical process like diffusion could inspire a modern generative model. How does a phenomenon traditionally associated with randomness, entropy, and information loss become a mechanism for learning complex data distributions?
+Coming from a physics background and now working in AI for Earth Observation, I was naturally intrigued by diffusion models. While reading about their impressive generative capabilities, I initially struggled to understand how a physical process like diffusion could inspire a modern generative model. How does a phenomenon traditionally associated with randomness, entropy, and information loss become a mechanism for learning complex data distributions?
 
 In this blog, I aim to build intuition for diffusion models by tracing their roots back to physical diffusion processes and unpacking how these ideas translate into the forward process of diffusion models. The focus here is on understanding how data is progressively corrupted in a principled way, and how this mirrors classical diffusion in physics.
 

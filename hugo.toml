@@ -4,14 +4,14 @@ title = "Kanishk-18"
 theme = "PaperMod"
 
 enableGitInfo = false
-
+publishDir="docs"
 [params]
   defaultTheme = "dark"
   disableThemeToggle = false
   math = true
   katex = true
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
